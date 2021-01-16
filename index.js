@@ -1,4 +1,4 @@
-const DatasetCore = require('./DatasetCore')
+import DatasetCore from './DatasetCore.js'
 
 const rdf = {
   dataset: quads => {
@@ -6,4 +6,4 @@ const rdf = {
   }
 }
 
-module.exports = rdf
+export default rdf

@@ -18,4 +18,4 @@ function isMatch (quad, subject, predicate, object, graph) {
   return true
 }
 
-module.exports = isMatch
+export default isMatch

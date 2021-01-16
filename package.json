@@ -2,6 +2,7 @@
   "name": "@rdfjs/dataset-reference",
   "version": "1.0.1",
   "description": "A basic implementation of the RDFJS Dataset",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "coverage": "codecov",

@@ -1,4 +1,4 @@
-const isMatch = require('./isMatch')
+import isMatch from './isMatch.js'
 
 class DatasetCore {
   constructor (quads) {
@@ -62,4 +62,4 @@ class DatasetCore {
   }
 }
 
-module.exports = DatasetCore
+export default DatasetCore
