@@ -1,4 +1,10 @@
-const rdf = require('..')
-const runTests = require('.')
+const datamodelFactory = require('@rdfjs/data-model')
+const datasetFactory = require('..')
+const test = require('@rdfjs/dataset/test')
 
-runTests(rdf)
+const rdf = {
+  ...datamodelFactory,
+  ...datasetFactory
+}
+
+test(rdf)
